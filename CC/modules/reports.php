@@ -86,6 +86,7 @@
 				
 				if(($sdate<$t) && ($edate<=$t) && ($edate >= $sdate))
 				{
+					
 					// echo "sub id".$selsub."<br>";
 					// echo "user id".$suid."<br>";
 					// echo "starting date:".$sdat." "."ending date:".$edat."<br>";
