@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
-    <title>Student Attendance Management System</title>
+    <title>Cloud based Student Attendance System</title>
     
     <link href="css/bootstrap.min.css" rel="stylesheet">   
 		<link href="css/style.css" rel="stylesheet">
@@ -17,7 +17,7 @@
   	<div id="wrapper">
     <div class="overlay"></div>
     
-    <h1>Student Attendance Management System</h1>
+    <h1>Cloud based Student Attendance System</h1>
     <style>
       h1{
         margin-top:0;

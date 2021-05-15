@@ -1,18 +1,17 @@
 </div>
 		<footer id="footer">
 			<div id="">
-			<p>&copy; 2020 Student Attendance System <br>
+			<p>&copy; cloud based student attendance system <br>
 
 			
 				
 			</p>
 			</div>
 			<div id="links">
-				<a href="https://www.linkedin.com/in/mohit-khedkar-63a6051a3/" taget="_blank">Mohit Khedkar </a> 
-				<a href="https://www.linkedin.com/in/megha-pal-92a2231a4/" taget="_blank"> Megha Pal </a> 
-				<a href="https://www.linkedin.com/in/rutuja-vetal-9621041a5/" taget="_blank"> Rutuja Vetal</a> 
-				<a href="https://www.linkedin.com/in/niraj-patil-6787311ba/" taget="_blank"> Niraj Patil</a> 
-				<a href="https://github.com/mohitkhedkar/Student-Attendance-Management-System"><b>View Source code </b></a>
+				<a href="https://www.linkedin.com/in/azhan-patel-35b9a6181" taget="_blank">Azhan Patel </a> 
+				<a href="https://www.linkedin.com/in/sahil-sheikh-2248381b2/" taget="_blank"> Sahil Sheikh </a> 
+				<a href="" taget="_blank"> Simran Nalge </a> 
+				<a href="https://www.linkedin.com/in/aisha-shaikh-a8a7461a6/" taget="_blank"> Aisha Shaikh </a> 
 			</div>
 			
 		</footer>
