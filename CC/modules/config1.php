@@ -2,17 +2,17 @@
 
 	//  Development connection
 	
-	$databaseHost = 'localhost';
-	$databaseName = 'attendance';
-	$databaseUsername = 'root';
-	$databasePassword = '';
+	// $databaseHost = 'localhost';
+	// $databaseName = 'attendance';
+	// $databaseUsername = 'root';
+	// $databasePassword = '';
 
 	// remote Database connection
 	
-	// $databaseHost = 'remotemysql.com';
-	// $databaseName = 'n0abpVC2Ep';
-	// $databaseUsername = 'n0abpVC2Ep';
-	// $databasePassword = 'gRbnXa7orW';
+	$databaseHost = 'remotemysql.com';
+	$databaseName = 'n0abpVC2Ep';
+	$databaseUsername = 'n0abpVC2Ep';
+	$databasePassword = 'gRbnXa7orW';
 	
 	try {
 		
