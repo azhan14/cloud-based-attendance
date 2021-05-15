@@ -9,10 +9,10 @@
 
 	// remote Database connection
 	
-	$databaseHost = 'localhost';
-	$databaseName = 'attendance';
-	$databaseUsername = 'root';
-	$databasePassword = '';
+	$databaseHost = 'remotemysql.com';
+	$databaseName = 'n0abpVC2Ep';
+	$databaseUsername = 'n0abpVC2Ep';
+	$databasePassword = 'gRbnXa7orW';
 	
 	try {
 		
