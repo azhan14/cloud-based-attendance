@@ -71,8 +71,7 @@
 				
 				$t=time();
 			
-
-				if(isset($_GET['submit']) && !empty($_GET['sdate']) && !empty($_GET['edate']) && ($_GET['edate'] > $_GET['sdate']) && ($_GET['sdate']<$t) && ($_GET['edate']<$t))
+				if(isset($_GET['submit']) && !empty($_GET['sdate']) && !empty($_GET['edate']) && ($_GET['edate'] > $_GET['sdate']) && ($_GET['sdate']<date('Y-m-d', $t)) && ($_GET['edate']<date('Y-m-d', $t))  )
 				{
 					$sdat = $_GET['sdate'];
 					$edat= $_GET['edate'];
@@ -139,7 +138,7 @@
 							 {
 
 
-								 $sql = "SELECT sid ,ispresent FROM attendance WHERE sid=$dsid AND
+								 $sql = "SELECT sid,ispresent FROM attendance WHERE sid=$dsid AND
 								 id=$selsub AND date=$j AND $suid=uid " ;
 								$stmt = $conn->prepare($sql); 
 								$stmt->execute();
@@ -176,10 +175,7 @@
 					echo "</table>";
 				}else
 				{
-					print '<div class="alert alert-dismissible alert-danger">
-                <button type="button" class="close" data-dismiss="alert">×</button>
-                <strong>Sorry!</strong>Please enter correct date range.
-              </div>';
+					print '<div class="alert alert-dismissible alert-danger"> <button type="button" class="close" data-dismiss="alert">×</button> <strong>Sorry!</strong>Please enter correct date range.</div>';
 				}
 
 				}else{
