@@ -7,7 +7,7 @@
 			<ul class="nav sidebar-nav">
 					<li class="sidebar-brand">
 
-							<a href="index.php"><img src="logo/logo.png" width="100" height="100"></a>
+							<a href="index.php"></a>
 					</li>
 					<li>
 							<a href="index.php?page=dashboard">Dashboard</a>
@@ -30,7 +30,7 @@
 	<nav class="navbar navbar-inverse navbar-fixed-top" id="sidebar-wrapper" role="navigation">
 			<ul class="nav sidebar-nav">
 					<li class="sidebar-brand">
-						<a href="index.php"><img src="logo/logo.png" width="100" height="100"></a>
+						<a href="index.php"></a>
 					</li>
 					<li>
 							<a href="index.php">Login</a>
